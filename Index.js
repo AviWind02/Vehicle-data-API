@@ -29,7 +29,7 @@ app.use(bodyParser.urlencoded({
 
 //Index file | main html file that allows me to insert data for testing
 app.get("/", function(req, res) {
-res.sendFile(__dirname + "/index.html");
+res.sendFile(__dirname + "/Home.html");
 });
 
 //Post Method | used to insert the data
