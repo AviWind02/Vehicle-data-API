@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<title>Vehicle data API part 3</title>
+</head>
+<style>
+    form {
+      width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+  
+    label {
+      display: inline-block;
+      width: 120px;
+      text-align: right;
+      padding-right: 10px;
+    }
+  
+    input[type="text"] {
+      width: 250px;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+  
+    input[type="submit"] {
+      margin-left: 130px;
+      padding: 5px 10px;
+      background-color: #008CBA;
+      color: white;
+      border-radius: 5px;
+      border: none;
+    }
+  </style>
+<body>
+	<form action="/insert" method="post">
+        <h1>insert</h1>
+            <label>Name:</label>
+            <input type="text" name="name"><br>
+            <label>Model:</label>
+            <input type="text" name="model"><br>
+            <label>Year:</label>
+            <input type="number" name="year"><br>
+            <label>Brand:</label>
+            <input type="text" name="brand"><br>
+            <label>Parts List:</label>
+            <input type="text" name="Partslist"><br>
+            <label>Price Range:</label>
+            <input type="number" name="PriceRang"><br>
+            <label>Colour:</label>
+            <input type="color" name="colour"><br><br>
+            <input type="submit" value="Submit">          
+	</form>
+</body>
+
+</html>
+

@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/c2048c50-06de-4727-9cdc-42b872c05436/AppServices/subscriptions/c2048c50-06de-4727-9cdc-42b872c05436/resourceGroups/Vehicledata_group/providers/Microsoft.Web/sites/Vehicledata",
+    "appService.deploySubpath": "."
+}
