@@ -2,20 +2,20 @@
 
 Was having issues loading on server
 # Endpoints
-http://localhost:3000
 
-http://localhost:3000/getAll
 
-http://localhost:3000/insert
-
-http://localhost:3000/getOne/:id
-
-http://localhost:3000/update/:id
-
-http://localhost:3000/delete/:id
+/getAll  
+/insert  
+/getOne/:id  
+/update/:id  
+/delete/:id  
 
 #URL
 
-Could not get to work
+https://vehicledatapart3.onrender.com
 
-https://vehicledatapart3.azurewebsites.net/
+#Local
+
+Uncomment the port code in index.js to test in locally
+http://localhost:3000 
+
